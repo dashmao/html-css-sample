@@ -21,21 +21,76 @@ div.main
 }
 div.content
 {
-  padding: 100px;
+  padding: 50px 0px;
   float: left;
   margin: 0px auto;
-  width: 500px;
-  height: 500px;
-  background-color: green
+  width: 700px;
+  height: 1200px
+}
+div.title
+{
+  padding: 15px
+}
+div.date
+{
+  font-size: 13px;
+  color: gray
+}
+div.h1
+{
+  font-size: 25px;
+  color: blue
+}
+div.article
+{
+  padding: 10px 0px;
+  float: left;
+  margin: 0px auto;
+  width: 640px;
+  height: 500px
+}
+.article p
+{
+  font-size: 13px
+}
+div.article_intro
+{
+  padding: 10px 0px 10px
+}
+div.article_1
+{
+  padding: 10px 0px 10px
+}
+span.article_heading
+{
+  font-weight: bold;
+  font-size: 22px;
+  border-bottom: 2px dotted;
+  border-color: #bfbfbf;
+  padding-bottom: 6px
 }
 div.side
 {
-  padding: 100px;
+  padding: 50px 0px 50px;
   float: left;
   margin: 0px auto;
-  width: 100px;
-  height: 500px;
-  background-color: yellow
+  width: 300px;
+  height: 1100px
+}
+div.side_article
+{
+  border-left: 8px solid #bfbfbf;
+  padding-left: 15px;
+  margin: 15px 0 35px
+}
+.side_article p
+{
+  font-size: 13px
+}
+span.side_heading
+{
+  font-size: 15px;
+  font-weight: bold
 }
 div.footer
 {
